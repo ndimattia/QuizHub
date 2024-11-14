@@ -25,6 +25,16 @@ function App() {
       <h1>QuizzHub</h1>
       <h2>Question</h2>
       <div>
+        <img src={
+          smiley === "happy" 
+          ? "/img/smile.png"
+          : smiley === "sad" 
+          ? "/img/sad.png"
+          : "/img/thinking.png"
+        }
+        alt="Smiley" />
+      </div>
+      <div>
         {buttonLabels.map((label, index) => (
           <Button key={index} label={label} handler={checkAnswer} />
         ))}
