@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <h1>QuizzHub</h1>
+      <h1>Quiz Hub</h1>
       <h2>Question</h2>
       <div>
         <img src={
